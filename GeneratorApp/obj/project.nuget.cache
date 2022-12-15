@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8RDahRW4HdDn4AuhPHvRi4g31Fg1HBlNc9iUooN2KvLOqzzG/bn7DsI9zooS0hRu4jqFoWdLSz7TWkQWbOMbow==",
+  "dgSpecHash": "qIM71jmk8VqAYf0HiQufzaOJcXNUULRtixrIhNgne0sU6E8cdqmvYuyS7sIl+HEIG9N+dtC8BnO3lllSnd6jXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hamid\\RiderProjects\\SourceGenerator\\GeneratorApp\\GeneratorApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hamid\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\microsoft.codeanalysis.common\\4.4.0\\microsoft.codeanalysis.common.4.4.0.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.4.0\\microsoft.codeanalysis.csharp.4.4.0.nupkg.sha512",
@@ -12,10 +13,12 @@
     "C:\\Users\\Hamid\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\Hamid\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Hamid\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hamid\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Hamid\\.nuget\\packages\\system.text.json\\7.0.1\\system.text.json.7.0.1.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
