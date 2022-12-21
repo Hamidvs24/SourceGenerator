@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -6,19 +7,19 @@ namespace GeneratorApp.Structure
 {
     public class FileHelper
     {
-        public static async Task<Entity> ReadJson()
+        public static async Task<List<Entity>> ReadJson()
         {
-            Entity entity;
+            List<Entity> data;
 
             using (var r = new StreamReader(
                        "C:\\Users\\Hamid\\RiderProjects\\SourceGenerator\\GeneratorApp\\data.json"))
             {
                 var json = await r.ReadToEndAsync();
-                entity = JsonSerializer.Deserialize<Entity>(json,
+                data = JsonSerializer.Deserialize<List<Entity>>(json,
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
             }
 
-            return entity;
+            return data;
         }
 
         public async void WriteJson(string destination)

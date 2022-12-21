@@ -3,18 +3,18 @@ using GeneratorApp.Structure;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Text;
 
-namespace GeneratorApp
+namespace GeneratorApp.Generators
 {
     [Generator]
-    public class ServiceGenerator : ISourceGenerator
+    public class UnitOfWorkGenerator : ISourceGenerator
     {
         public void Execute(GeneratorExecutionContext context)
         {
-            var model = FileHelper.ReadJson().Result;
+            var data = FileHelper.ReadJson().Result;
 
-            var entityService = TextBuilder.BuildTextForEntityService(model);
+            var text = TextBuilder.BuildTextForUnitOfWork(data);
 
-            context.AddSource($"{model.Name}Service.g.cs", SourceText.From(entityService, Encoding.UTF8));
+            context.AddSource("UnitOfWork.g.cs", SourceText.From(text, Encoding.UTF8));
         }
 
         public void Initialize(GeneratorInitializationContext context)

@@ -14,6 +14,14 @@ public abstract class Program
         var a = typeof(BLL.Abstract.ITagService);
         var b = typeof(BLL.Concrete.TagService);
 
+        var c = typeof(API.Controllers.TagController);
+
+        var u = typeof(DAL.UnitOfWorks.Abstract.IUnitOfWork);
+        var w = typeof(DAL.UnitOfWorks.Concrete.UnitOfWork);
+
+        var r = typeof(DAL.Abstract.ITagRepository);
+        var i = typeof(DAL.Concrete.TagRepository);
+
         Console.WriteLine("Operation completed succesfully !");
     }
 }
